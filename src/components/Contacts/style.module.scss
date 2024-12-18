@@ -1,0 +1,209 @@
+
+
+.container {
+    position: absolute;
+    width: 1920px;
+    height: 618px;
+    left: 0px;
+    top: 4860px;
+
+    background: #F3F7F6;
+  }
+.Heading {
+    position: absolute;
+    width: 140px;
+    height: 29.84px;
+    left: 370px;
+    top: 4920.79px;
+
+    font-family: 'Intro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+
+    color: #444B58;
+
+
+    @media (min-width: 375px) and (max-width: 1024px) {
+      font-size: 24px;
+      margin-bottom: 20px;
+      padding-top: 50px;
+    }
+  }
+.text1{
+    position: absolute;
+    width: 130px;
+    height: 19.9px;
+    left: 370px;
+    top: 5010.33px;
+
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #B2B5BB;
+  }
+.text2{
+    position: absolute;
+    width: 243px;
+    height: 41.78px;
+    left: 370px;
+    top: 5070.02px;
+
+    font-family: 'Intro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+
+    color: #444B58;
+}
+.text3{
+    position: absolute;
+    width: 362px;
+    height: 24.87px;
+    left: 370px;
+    top: 5121.75px;
+    
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%; 
+}
+.text4{
+    position: absolute;
+    width: 127px;
+    height: 19.9px;
+    left: 370px;
+    top: 5186.41px;
+    
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    
+    color: #B2B5BB;     
+}
+.text5{
+    position: absolute;
+    width: 243px;
+    height: 41.78px;
+    left: 370px;
+    top: 5226.21px;
+    
+    font-family: 'Intro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+    
+    color: #444B58;  
+}
+.text6{
+    position: absolute;
+    width: 362px;
+    height: 24.87px;
+    left: 370px;
+    top: 5277.94px;
+    
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    
+    color: #444B58;      
+}
+.text7{  
+    text-decoration: none; 
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    
+    color: #444B58;      
+}
+.iconVK{
+    position: absolute;
+    width: 44px;
+    height: 43.77px;
+    left: 370px;
+    top: 5342.6px;  
+}
+.iconInstagram{
+    position: absolute;
+    width: 44px;
+    height: 43.77px;
+    left: 434px;
+    top: 5342.6px;
+}
+.MapYA{
+    position: absolute;
+    width: 680px;
+    height: 497.41px;
+    left: 870px;
+    top: 4920.79px;
+
+    border-radius: 4px;
+}
+.Exclude1{
+    position: absolute;
+    width: 25px;
+    height: 34.82px;
+    left: 1135px;
+    top: 5067.03px;
+}
+.Exclude2{
+    position: absolute;
+    width: 25px;
+    height: 34.82px;
+    left: 1210px;
+    top: 5164.53px;
+}
+.Exclude3{
+    position: absolute;
+    width: 25px;
+    height: 34.82px;
+    left: 1350px;
+    top: 5124.03px
+    
+}
+.Question{
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    left: 517px;
+    top: 5014.33px;
+    z-index: 2;
+
+}
+.Tooltip{
+    position: absolute;
+    width: 476px;
+    height: 128px;
+    left: 483px;
+    top: 4914px;
+    z-index:3;
+    transition:   60s;
+}
+.Ellipse11{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 502px;
+    top: 5003.33px;
+    z-index: 1;
+}
+

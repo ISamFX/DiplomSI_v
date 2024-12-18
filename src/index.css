@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+:root {
+  max-width: 1920px ;
+  min-width: 375px;
+  max-height: 100vw;
+  min-height: 375px;
+  --gray:  #444B58;
+}
+
+body {
+  position: relative;
+  width: 1920px;
+  height: 6113px;
+  
+  background: #FFFFFF; 
+}
+
+modal {
+  position: absolute;
+} 
+
+

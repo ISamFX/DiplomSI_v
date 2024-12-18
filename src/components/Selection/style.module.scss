@@ -1,0 +1,437 @@
+
+
+.select_container{
+    position: absolute;
+    width: 1180px;
+    height: 658px;
+    left: 370px;
+    top: 2545px;
+    background: #FFF4EE;
+
+    border-radius: 4px; 
+    display: flex;
+}
+.heading_container{
+    position: relative;
+    top: 40px;
+    left: 100px;
+    width: 880px;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.heading{    
+    width: 561px;
+    height: 30px;
+    
+    
+    font-family: 'Intro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+
+    color: #444B58;
+
+}
+.txt_heading_container{
+    width: 780px;
+    height: 16px;
+    top: 20px;
+
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+    color: #808080
+}
+.line_blok1{
+    position: absolute;
+    width: 980px;
+    height: 0px; 
+    left: 100px;
+    top: 116px;
+    border-bottom:  1px solid #808080;
+}
+.line_blok2{
+    position: absolute;
+    width: 980px;
+    height: 432px;
+    left: 470px;
+    top: 2661px;   
+    border-bottom:  1px solid #808080;
+}
+.form_block{
+    position: absolute;
+    width: 980px;
+    height: 432px;
+    left: 470px;
+    top: 2661px;
+    
+    z-index: 1;  
+}
+.page_counter{
+    position: absolute;
+    width: 80px;
+    height: 16px;
+    left: 470px;
+    top: 3126px;  
+    
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    
+    color: #808080;       
+}
+.button_next_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 42px;
+    gap: 10px;
+
+    position: absolute;
+    width: 211px;
+    height: 50px;
+    left: 1239px;
+    top: 3113px;
+
+    font-family: 'Intro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+    background-color: #FFF4EE;
+    border-radius: 4px; 
+    border: 1px solid #444B58;
+}
+.button_next_formm:focus {
+    background-color: #DBBBA9;
+}
+.button_next_formm:hover {
+    background-color: #B2B5BB
+}
+.button_next_formm:active {
+    background-color: #FFF4EE;
+}  
+
+.select_question{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444B58;
+    @media (min-width: 375px) and (max-width: 1024px) {
+        text-align: center;
+    } 
+}
+.select_sneaker_gap{
+    width: 980px;
+    height: 328px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    @media (min-width: 375px) and (max-width: 600px) {
+    justify-content: center;
+  }    
+}
+.sneaker_item{
+    align-items: start;
+    @media (min-width: 375px) and (max-width: 1024px) {
+      align-items: center;
+    }
+}
+.input_checkbox{
+    width: 150px;
+    height: 24px;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    box-sizing: border-box; 
+}
+.input_label {
+    border: 2px solid #DBBBA9;
+    border-radius: 4px;
+
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+.input_discrishion{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.select_size{
+    width: 860px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 40px;
+    @media (min-width: 375px) and (max-width: 1024px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0px;
+      align-items: center;
+    }
+}
+.select_size_item{
+   
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    margin-bottom: 22px;
+    @media (min-width: 375px) and (max-width: 1024px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0px;
+    }
+}
+.imgRect45{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    @media (min-width: 375px) and (max-width: 1024px) {
+      width: 100%;
+    }
+}
+.select_txtarea{
+    margin-top: 20px;
+  min-width: 465px;
+  height: 265px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border: none;
+  resize: none;
+  @media (min-width: 375px) and (max-width: 1024px) {
+    min-width: 305px;
+    height: 265px;
+    margin-left: 10px;
+  }
+}
+.choose-textarea::placeholder {
+    background-color: #FFF4EE;
+    border-radius: 4px; 
+    border: 1px solid #444B58;
+    // color: rgba(219, 187, 169, 1);
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.select_message{
+  padding-bottom: 122px;
+  margin-bottom: 20px;
+  border: 1px solid #444B58;
+}
+.input_container_f3{
+    width: 465px;
+    height: 246px;
+    margin-top: 25px;
+
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #DBBBA9;
+}
+.input_container_f3::placeholder{
+    
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+    color: #DBBBA9;
+}
+.select_container_f4{
+    position: absolute;
+    width: 1180px;
+    height: 658px;
+    left: 370px;
+    top: 2545px;
+    background: #FFF4EE;
+
+    border-radius: 4px; 
+}
+.heading_container_f4{
+    position: relative;
+    width: 337px;
+    height: 30px;
+    left: 154px;
+    top: 80px;
+
+    font-family: 'Intro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+
+    color: #444B58;   
+    @media (min-width: 375px) and (max-width: 1024px) {
+      text-align: center;
+    }  
+}
+.txt_container_f4{
+    position: relative;
+    width: 854px;
+    height: 18px;
+    left: 154px;
+    top: 100px;
+    
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #DBBBA9;
+    @media (min-width: 375px) and (max-width: 1024px) {
+    text-align: center;
+  }
+}
+.line_blok_f4{
+    position: absolute;
+    width: 980px;
+    height: 0px; 
+    left: 154px;
+    top: 185px; 
+    border: 1px solid #DBBBA9;
+};
+.form_containerf4{
+    position: relative;
+    width: 655px;
+    height: 399px;
+    left: 154px;
+    top: 175px;
+    z-index: 2;
+
+    background: #DBBBA9;
+    @media (min-width: 375px) and (max-width: 1024px) {
+    text-align: center;
+    padding: 0;
+  }
+}
+.heading_messag_f4{
+    position: relative;
+    left: 40px;
+    top: 40px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50.4px;
+    color: white;
+    margin-bottom: 10px;
+
+    @media (min-width: 375px) and (max-width: 1024px) {
+    text-align: center;
+  }    
+}
+.text_messag_f4{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: white;
+    margin-bottom: 24px;
+    @media (min-width: 375px) and (max-width: 1024px) {
+      text-align: center;
+    }  
+}
+.input_block_f4{
+    left: 30px;
+    position: relative;
+    width: 500px;
+    height: 210px;
+    top: 30px;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    row-gap: 10px;
+}
+.input1_container_f4{
+    padding: 35px 280px 20px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+    border: none;
+    @media (min-width: 375px) and (max-width: 1024px) {
+      padding: 18px 130px 10px 10px;
+    } 
+}
+.input2_container_f4{
+    padding: 35px 280px 20px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+    border: none; 
+    @media (min-width: 375px) and (max-width: 1024px) {
+        padding: 18px 130px 10px 10px;
+    } 
+}
+.input_submit_f4{
+    left: 15px;
+    position: relative;
+    width: 500px;
+    height: 210px;
+    display: flex;
+    row-gap: 10;
+    align-items: center;  
+}
+.f4_submit{
+    left: 15px;
+    width: 108;
+    height: 80;
+    padding: 20px 80px 20px 80px;
+    margin-top: 2px;
+    margin-bottom: 40px;
+    background: #F14F4F;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;  
+}
+.f4_submit:focus {
+    background-color: #F14F4F;
+}
+.f4_submit:hover {
+    background-color: #CC4949
+}
+.f4_submit:active {
+    background-color: #8C2828;
+}  
+.error_messag_f4 {
+    color:  #F14F4F;
+
+    text-align: end;
+    margin-left: 150px;
+    margin-top: -30px;
+}
+.f4_img {
+position: absolute;
+  top: 60%;
+  right: 5%;
+  width: 150px;
+  @media (min-width: 375px) and (max-width: 1024px) {
+    display: none;
+  }
+}

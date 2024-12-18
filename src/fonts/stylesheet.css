@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Intro-Book';
+	src: url('./intro-book.eot'); /* IE 9 Compatibility Mode */
+	src: url('./intro-book.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./intro-book.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./intro-book.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./intro-book.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./intro-book.svg#intro-book') format('svg'); /* Chrome < 4, Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intro Regular';
+    src: url('./intro-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('./intro-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./intro-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./intro-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./intro-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./intro-regular.svg#intro-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intro Bold';
+    src: url('./intro-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('./intro-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./intro-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./intro-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./intro-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./intro-bold.svg#intro-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+

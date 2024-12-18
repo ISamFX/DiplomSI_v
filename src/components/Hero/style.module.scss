@@ -1,0 +1,544 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero_container {
+    background-color:  #484283;
+    position: relative;
+    z-index: 0;
+    width: 1920px;
+    height: 528px;
+    z-index: 1;
+}
+
+nav {
+    position: absolute;
+    width: 1180px;
+    height: 44px;
+    left: 370px;
+    top: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: 'Intro Bold';
+    font-style: regular;
+    font-size: 14px;
+ }
+
+.header_container{
+    position: absolute;
+    width: 1180px;
+    height: 44px;
+    left: 370px;
+    top: 20px; 
+}
+
+.logo {    
+    font-family: 'Intro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+    @media (min-width: 375px) and (max-width: 1024px) {
+        font-size: 30p;
+        text-align: center;
+    }
+}
+.nav_list{
+    width: 680px;
+    height: 14px;
+    justify-content: space-between;
+    display: flex;
+ 
+    list-style: none;  
+        
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+ }
+ .nav_bnt a {    
+    text-decoration: none;
+    font-family: 'Intro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF; 
+  }
+
+.nav_bnt a:active {
+    color: #9f9d9d;
+  }
+.nav_bnt a:hover {
+    color: #FFF4EE;
+  }
+.nav_bnt a:focus {
+    color: #FFF4EE;
+  }
+.basket_bnt {
+
+    border: none; 
+    outline: none;
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    background-color:  #484283;
+    color: #FFFFFF;    
+} 
+.lines {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    border: 0;
+    background-color: #FFFFFF; 
+  
+    span {
+      width: 30px;
+      height: 5px;
+      display: inline-block;
+      background-color: white;
+    }
+  }
+.hero_heading{
+  position: absolute;
+  width: 580px;
+  height: 100px;
+  left: 370px;
+  top: 164px;
+  font-family: 'Intro Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: left;
+  line-height: 140%;
+  color: white;
+  @media (min-width: 375px) and (max-width: 1024px) {
+      font-size: 30p;
+      text-align: center;
+    }
+}
+.hero_textcontainer{
+    max-width: 580px;
+    position: relative;
+    z-index: -1;
+    @media (min-width: 375px) and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    }
+}
+.hero_description{
+    position: absolute;
+    width: 480px;
+    height: 44px;
+    left: 370px;
+    top: 284px;
+    font-family: 'Intro Book';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    @media (min-width: 375px) and (max-width: 1024px) {
+    text-align: center;
+    }
+}
+.btn_hero_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    gap: 10px;
+
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    top: 368px;
+    left: 0px;
+    background: #F14F4F;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+
+
+    
+    @media (min-width: 375px) and (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+}
+
+.btn_hero{
+    background: #F14F4F;
+    border: none;
+    width: 250px;
+    height: 60px;
+    font-family: 'Intro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+   
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    @media (min-width: 375px) and (max-width: 1024px) {
+        margin-top: 20px;
+        margin-bottom: 50px;
+      }
+
+}
+.back_text{
+    position: absolute;
+    width: 980px;
+    height: 200px;
+    left: 515px;
+    top: 240px;
+
+    font-family: 'Intro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 200px;
+    color: rgba(255, 255, 255, 0.12);
+    @media (min-width: 375px) and (max-width: 1024px) {
+      display: none;    
+    }
+}
+.basket_bnt_counter{
+  background-color: #F14F4F;
+  color: #FFFFFF;
+}
+
+.basket_krug_counte{
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+}
+.hero_modal_container {
+  position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 646px;
+
+    z-index: 999;
+  }
+
+  .hero_back{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(68, 75, 88, 0.7);
+    z-index: 100;
+  }
+
+  .hero_basket {
+        position: absolute;
+        z-index: 105;
+        left: 670px;
+        top: 64px;
+        width: 480px;
+        height: 414px;
+        box-shadow: 0px -4px 10px 0px rgba(0, 13, 84, 0.1);
+        background: rgb(255, 255, 255);
+        
+      }
+
+.modal_button{
+        width: 238;
+        height: 50;
+        padding: 20px 70px 20px 75px;
+     
+        background: #F14F4F;
+       
+         border: 1px solid #000000;
+        color: #FFFFFF;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+.btn_modal{
+      position: absolute;
+      border: none;
+      width: 266px;
+      height: 50px;
+      left: 200px;
+      top: 340px;
+      font-family: 'Intro Regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 16px;
+      
+      @media (min-width: 375px) and (max-width: 1024px) {
+          margin-top: 20px;
+          margin-bottom: 50px;
+        } 
+  }
+.itog{
+  position: relative;  
+  width: 43px;
+  height: 20px;
+  left: 20px;
+  top: 20px;
+
+  font-family: 'Intro Book';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #4D4D4D;
+}
+.itogsumma{
+  position: relative;  
+  width: 72px;
+  height: 20px;
+  left: 20px;
+  top: 30px;
+
+  font-family: 'Intro Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+
+color: #4D4D4D;
+}
+.hero_zakaz{
+  position: absolute;
+  z-index: 105;
+  left: 280px;
+  top: 64px;
+  width: 580px;
+  height: 902px;
+  box-shadow: 0px -4px 10px 0px rgba(0, 13, 84, 0.1);
+  background: rgb(255, 255, 255);
+
+}
+.header_zakaz{
+  position: relative;  
+  width: 515px;
+  height: 20px;
+  left: 30px;
+  top: 30px;  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+}
+.txt_zakaz{
+  width: 197px;
+  height: 20px;  
+  font-family: 'Intro Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+
+  color: #444B58;
+  z-index: 999;
+}
+.number_zakaz{
+  width: 93px;
+  height: 14px;
+  
+  
+  font-family: 'Intro Book';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  
+  text-align: right;
+  
+  color: #B2B5BB;
+  z-index: 999;
+  }
+.tovar_zakaz{
+    position: relative;  
+    width: 515px;
+    height: 450px;
+    left: 30px;
+    top: 80px;
+
+    border: 1px solid #000000;
+  }
+.btn_modal{
+position: absolute;    
+    border: none;
+    width: 266px;
+    height: 50px;
+    left: 180px;
+    top: 340px;
+    font-family: 'Intro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    
+    @media (min-width: 375px) and (max-width: 1024px) {
+        margin-top: 20px;
+        margin-bottom: 50px;
+      } 
+}
+.txt_zakaz1{
+  position: relative;  
+  top: 20px;
+  left: 25px;
+  width: 177px;
+  height: 16px;
+font-family: 'Intro Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #B2B5BB;
+}
+
+.boldtxt_zakaz{
+font-family: 'Intro Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+
+color: #444B58;
+}
+
+.txt_zakaz2{
+  position: relative;  
+  top: 40px;
+  left: 25px;
+  width: 237px;
+  height: 16px;
+font-family: 'Intro Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #B2B5BB;
+}
+.txt_zakaz3{
+  position: relative;  
+  top: 60px;
+  left: 25px;
+  width: 237px;
+  height: 16px;
+font-family: 'Intro Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #B2B5BB;
+}
+.items_zakaz{
+  position: relative;  
+  top: 75px;
+  left: 5px;
+  width: 520px;
+  height: 100px;
+}
+.intelligence_zakaz_form_block{
+  position: relative;  
+  top: 120px;
+  left: 25px;
+  width: 520px;
+  height: 200px;
+}
+.zakaz_form_block{
+  position: relative;
+  display: flex;
+  align-items: center;  
+  flex-direction: column;
+  row-gap: 20px;
+}
+.input_zakaz_first {
+  padding: 20px 330px 20px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #F6F6F6;
+
+  @media (min-width: 375px) and (max-width: 1024px) {
+    padding: 18px 130px 18px 20px;
+  }
+}  
+.input_zakaz_second {
+  padding: 20px 330px 20px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #F6F6F6;
+  @media (min-width: 375px) and (max-width: 1024px) {
+  padding: 18px 130px 18px 20px;
+}
+}
+.input_zakaz_third {
+  padding: 20px 330px 20px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #F6F6F6;
+  @media (min-width: 375px) and (max-width: 1024px) {
+  padding: 18px 130px 18px 20px;
+}
+}
+
+.zakaz_btn_modal2{
+  position: absolute; 
+  border: none;
+  width: 266px;
+  height: 60px;
+  left: 10px;
+  top: 220px;
+  
+  font-family: 'Intro Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  
+  @media (min-width: 375px) and (max-width: 1024px) {
+      margin-top: 20px;
+      margin-bottom: 50px;
+    } 
+}
+
+.error_messag_f4{
+  margin-top: -55px;
+  margin-right: -150px;
+  color: #F14F4F;
+}

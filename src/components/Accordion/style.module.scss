@@ -1,0 +1,60 @@
+
+
+.AccordionSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container_accord {
+    position: absolute;
+    width: 880px;
+    height: 217px;
+    left: 0px;
+    top: 0px; 
+}
+.Wrap{
+    background: #FFFFFF; 
+    color: #242424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-bottom:  1px solid #242424;
+    border-top: 1px solid #242424;
+  
+    h1 {
+      padding: 2rem;
+        font-family: 'Intro Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+    }
+  
+    span {
+      margin-right: 1.5rem;
+    }  
+}
+.Dropdown{
+    color: rgba(36, 36, 36, 0.5);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+  
+    p {
+        font-family: 'Intro Book';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+
+        color: rgba(36, 36, 36, 0.5);
+    } 
+}

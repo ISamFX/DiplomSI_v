@@ -1,0 +1,78 @@
+
+
+.container {
+    position: absolute;
+    left: 0px;
+    top: 3263px; 
+    width: 1920px;
+    height: 1190px;
+    background-color:  #484283; 
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end;    
+  }
+.teamFigure{  
+    width: 541px;
+    height: 550px;
+    left: 1379px;
+    top: 3263px; 
+}
+
+.team_heading{
+    position: absolute;
+    width: 210px;
+    height: 30px;
+    left: 374px;
+    top: 3323px;
+
+    font-family: 'Intro Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container_team {
+    position: absolute;
+    width: 1180px;
+    height: 1000px;
+    left: 370px;
+    top: 3393px;
+}
+.team_image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.list_team_container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 20px 40px; 
+    grid-template-areas: 
+    ". . ."
+    ". . .";  
+    @media (min-width: 375px) and (max-width: 1024px) {
+      align-items: center;
+     }
+}
+.team_name {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+
+.team_role {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
